@@ -1,0 +1,5 @@
+Document-Similarity/.*
+Document-Similarity/data/*
+Document-Similarity/tmp/*
+Document-Similarity/*.pyc
+Document-Similarity/*~
