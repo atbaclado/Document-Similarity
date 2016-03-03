@@ -44,15 +44,15 @@ python main.py
 
 You can modify source code to fit your data:
 
-- **[main.py]()**: 
+- **[main.py](https://github.com/khoaipx/Document-Similarity/blob/master/Document-Similarity/main.py)**: 
     * ``input_file``: path to input data file
     * ``stopwords_file``: path to stop words file
     * ``num_topics``: number of topics in LDA Model
     * ``prefix_name``: prefix name of saved files (dictionary, corpus, model, etc.)
     * ``directory``: path to saved data directory
     * ``query``: path to query file
-- **[setting.py]()**: stores default setting
-- **[corpus.py]()**:
+- **[setting.py](https://github.com/khoaipx/Document-Similarity/blob/master/Document-Similarity/setting.py)**: stores default setting
+- **[corpus.py](https://github.com/khoaipx/Document-Similarity/blob/master/Document-Similarity/corpus.py)**:
     * ``get_docs()**: modify to fit data format
 
 # 4. References
