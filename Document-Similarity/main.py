@@ -38,7 +38,8 @@ def main():
     documents = []
     for line in reader.readlines():
         documents.append(line.replace('\n', ''))
-    docsim.query(documents, save=True)
+    docsim.query(documents, True, directory, prefix_name)
+    docsim.query(documents, False, directory, prefix_name)
     print 'Query time: ', datetime.now() - start_time
 
 if __name__ == '__main__':

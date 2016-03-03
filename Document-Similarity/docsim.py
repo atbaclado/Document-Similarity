@@ -50,7 +50,7 @@ class DocSim:
             saved_file_path = path + '/' + prefix_name + '_res.txt'
             writer = codecs.open(saved_file_path, 'w', 'utf8')
             for i in range(len(documents)):
-                writer.write('Input: ' + documents[i] + '\n')
+                writer.write('Input: \n\t' + documents[i] + '\n')
                 writer.write('-'*100 + '\n')
                 writer.write('Similar documents: \n')
                 for idx in indices[i]:
@@ -60,7 +60,8 @@ class DocSim:
                 writer.write('='*100 + '\n')
         else:
             for i in range(len(documents)):
-                print 'Input: ', documents[i]
+                print 'Input: '
+                print documents[i]
                 print '-' * 100
                 print 'Similar documents: '
                 for idx in indices[0]:

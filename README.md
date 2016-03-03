@@ -53,10 +53,11 @@ You can modify source code to fit your data:
     * ``query``: path to query file
 - **[setting.py](https://github.com/khoaipx/Document-Similarity/blob/master/Document-Similarity/setting.py)**: stores default setting
 - **[corpus.py](https://github.com/khoaipx/Document-Similarity/blob/master/Document-Similarity/corpus.py)**:
-    * ``get_docs()**: modify to fit data format
+    * ``get_docs()``: modify to fit data format
 
 # 4. References
 
+- My review [Implementing Context-based similar documents with Python](https://dashdotdash.wordpress.com/2016/03/04/implementing-context-based-similar-documents-with-python/)
 - Rich Anchor Blog [Context-based similar documents](http://blog.richanchor.com/2016/01/22/context-based-similar-documents/)
 - Rich Anchor Blog [Topic modeling with LDA](http://blog.richanchor.com/2016/01/15/topic-modeling-with-lda/)
 - Gensim [API Tutorial](https://radimrehurek.com/gensim/apiref.html)
