@@ -12,12 +12,12 @@ def main():
 
     start_time = datetime.now()
 
-    input_file = 'data/content.with.categories.seg.vni'
-    stopwords_file = 'data/stopwords.txt'
+    input_file = 'data/para.txt'
+    stopwords_file = 'data/en-stopwords.txt'
     num_topics = 100
-    prefix_name = 'demo'
+    prefix_name = 'para'
     directory = 'tmp'
-    query = 'data/query.txt'
+    query = 'data/q1.txt'
 
     corpus = Corpus()
     corpus.build_corpus(input_file, stopwords_file, directory, prefix_name)
